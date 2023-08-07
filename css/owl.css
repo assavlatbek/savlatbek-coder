@@ -1,0 +1,62 @@
+.item {
+  color: #fff !important;
+  border: 2px solid #fff;
+}
+.owl-header {
+  overflow: hidden;
+}
+.owl-header img {
+  transition: 0.5s all;
+}
+.owl-header img:hover {
+  transform: scale(1.2);
+}
+.owl-body {
+  padding: 10px;
+  background: #0000009a;
+}
+.owl-body .technology {
+  color: #30dd6d;
+}
+.owl-body .project-descr {
+  margin-top: 10px;
+}
+.owl-body .project-title {
+  color: #30dd6d !important;
+}
+.owl-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0000009a;
+  padding: 10px;
+}
+.owl-action .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.owl-nav {
+  transition: 0.5s all;
+  color: #000000 !important;
+}
+.owl-nav button {
+  transition: 0.5s all;
+  font-size: 20px !important;
+  width: 30px;
+  height: 30px;
+  background: #fff !important;
+}
+.owl-nav button:hover {
+  color: #000;
+  background: #444444 !important;
+}
+@media (max-width: 500px) {
+  .owl-action {
+    display: block;
+  }
+  .owl-action .btn {
+    margin: 10px 0;
+  }
+}
